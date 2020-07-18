@@ -1,0 +1,14 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "exercises from the learning typescript course on LinkedIn Learning",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thanyathorn Thanapatheerakul",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  }
+}
