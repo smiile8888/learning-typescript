@@ -4,12 +4,12 @@ This is the repo I'm working on while I'm learning [typescript course](https://w
 
 There are four chapters. Each includes the exercise files, starter and final files. I have modified the exercise files on-the-go while I'm learning, plus added some comments regarding the lessons. I also summarize what I've learned in each chapter.
 
-<center>
+<h3 style="text-align: center">
   <a href="#chapter-1-The-Basics"> Chapter 1</a> | 
   <a href="#chapter-2-defining-custom-types"> Chapter 2</a> | 
-  <a href="#chapter-3"> Chapter 3</a> | 
-  <a href="#chapter-4"> Chapter 4 </a>
-</center>
+  <a href="#chapter-3-classes"> Chapter 3</a> | 
+  <a href="#chapter-4-expanding-and-improving-type"> Chapter 4 </a>
+</h3>
 
 ## Prerequisites
 1. Node.js
@@ -78,7 +78,7 @@ There are four chapters. Each includes the exercise files, starter and final fil
     foo: (a: string) => string {}
     ```
 
-## Chapter 2: Defining Custome Types
+## Chapter 2: Defining Custom Types
 ### Type inference
   - Infer the type without explicitly declare 
 ### Gradual Typing
@@ -99,11 +99,11 @@ There are four chapters. Each includes the exercise files, starter and final fil
       }
       ```
 
-## - Enum
+### Enum
   - Strongly type object
   - A set of predefined variables
 
-## - Literal type
+### Literal type
   - Inline type
   - Declare the available values to the variable directly separated by `|`
   - This applies to the type as well
